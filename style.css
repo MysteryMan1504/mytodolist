@@ -1,0 +1,196 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    background-image: url("https://wallpapercave.com/wp/wp8172546.jpg");
+    background-position: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 225px;
+    border: 1px solid black;
+}
+
+.task-input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border-color: linear-gradient(135deg, 
+        #00FFFF 5%, 
+        #00E8FF 10%, 
+        #00D1FF 15%, 
+        #00BAFF 20%, 
+        #00A3FF 25%, 
+        #008CFF 30%, 
+        #0075FF 35%, 
+        #005EFF 40%, 
+        #0047FF 45%, 
+        #0030FF 50%, 
+        #0019FF 55%, 
+        #0002FF 60%, 
+        #4A00FF 65%, 
+        #6300FF 70%, 
+        #7C00FF 75%, 
+        #9500FF 80%, 
+        #AE00FF 85%, 
+        #C700FF 90%, 
+        #E000FF 95%, 
+        #FF00FF 100%
+    );
+}
+
+#taskInput {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 300px;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+#addTaskButton {
+    padding: 10px 20px;
+    font-size: 20px;
+    background: linear-gradient(135deg, 
+        #00FFFF 5%, 
+        #00E8FF 10%, 
+        #00D1FF 15%, 
+        #00BAFF 20%, 
+        #00A3FF 25%, 
+        #008CFF 30%, 
+        #0075FF 35%, 
+        #005EFF 40%, 
+        #0047FF 45%, 
+        #0030FF 50%, 
+        #0019FF 55%, 
+        #0002FF 60%, 
+        #4A00FF 65%, 
+        #6300FF 70%, 
+        #7C00FF 75%, 
+        #9500FF 80%, 
+        #AE00FF 85%, 
+        #C700FF 90%, 
+        #E000FF 95%, 
+        #FF00FF 100%
+    );
+    color: #ffffff;
+    border: 2px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#addTaskButton:hover {
+    background: linear-gradient(135deg, 
+        #00FFFF 5%, 
+        #00E8FF 10%, 
+        #00D1FF 15%, 
+        #00BAFF 20%, 
+        #00A3FF 25%, 
+        #008CFF 30%, 
+        #0075FF 35%, 
+        #005EFF 40%, 
+        #0047FF 45%, 
+        #0030FF 50%, 
+        #0019FF 55%, 
+        #0002FF 60%, 
+        #4A00FF 65%, 
+        #6300FF 70%, 
+        #7C00FF 75%, 
+        #9500FF 80%, 
+        #AE00FF 85%, 
+        #C700FF 90%, 
+        #E000FF 95%, 
+        #FF00FF 100%
+    );
+  text-decoration: bold;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: red;
+}
+
+.edit-button {
+    background-color: #007bff;
+    color: white;
+    border: 3px ;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.edit-button:hover {
+    background-color: #0056b3;
+}
+
+.task-stats-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border-radius: 4px;
+    font-size: 14px;
+    text-decoration: bold;
+}
+
+#clearAllButton {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+#clearAllButton:hover {
+    background-color: darkred;
+}
+
+.task-stats-container {
+  background-color: #0ad9f5;
+  color: black;
+  border: 2px solid black;
+}
