@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>To-Do List</title>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css'>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="https://www.favicon.cc/logo3d/969800.png">
+</head>
+<body>
+    <header>
+        <h1>My To-Do List</h1>
+    </header>
+
+    <div class="task-input-container">
+        <input type="text" id="taskInput" placeholder="Enter a new task">
+        <button id="addTaskButton"><strong>Add Task</strong></button>
+    </div>
+
+    <div class="tasks-container">
+        <ul id="taskList">
+        </ul>
+    </div>
+
+    <div class="task-stats-container">
+    <span>Total Tasks: <span id="totalTasks">0</span></span>
+    <span>&nbsp;&nbsp;Completed Tasks: <span id="completedTasks">0</span></span>
+    <button id="clearAllButton">Clear All</button>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
